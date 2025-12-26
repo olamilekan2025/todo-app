@@ -130,6 +130,7 @@ input::placeholder {
   .auth-container {
     width: 100%;
     max-width: 380px;
+    margin-top: 80px;
     padding: 28px;
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(16px);
@@ -232,4 +233,29 @@ input::placeholder {
   }
 
 }
+
+
+
+/* Password wrapper */
+.password-wrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding-right: 40px; /* space for icon */
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-70%);
+  cursor: pointer;
+  color: #333;
+  font-size: 16px;
+}
+
 
